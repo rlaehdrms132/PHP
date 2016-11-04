@@ -155,13 +155,13 @@ function command() {
 
                     window.alert("등록 되었습니다.");
 
-                    location.href = 'https://balancemyschedule.tk';
+                    location.href = 'https://dailypartner.xyz';
 
                 }
             });
         }
         else {
-            location.href = 'https://balancemyschedule.tk' + command;
+            location.href = 'https://dailypartner.xyz' + command;
         }
     }
 }
