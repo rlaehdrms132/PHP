@@ -1,0 +1,46 @@
+.weatherWeget {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    height: 245px; /*100%*/
+    width: 100%;
+    letter-spacing: 1px;
+    margin-left: 0;
+}
+
+.info_top {
+    text-align: right;
+}
+
+.info_bottom {
+    text-align: left;
+}
+
+.weatherWeget blockquote {
+    border-color: rgba(87, 124, 189, 0.7);
+}
+
+#weather_name {
+    /*color: #b0f9e4;*/
+    font-size: 20px;
+}
+
+#temp {
+    /*color: #00c5cc;*/
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#temp_max {
+    /*color: #00c5cc;*/
+    font-size: 20px;
+}
+
+#temp_min {
+    /*color: #86CCC1;*/
+    font-size: 18px;
+}
+
+.ect_info {
+    /*color:#00c5cc;*/
+    font-size: 12px;
+}

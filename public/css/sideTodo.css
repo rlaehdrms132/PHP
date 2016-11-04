@@ -1,0 +1,80 @@
+.slideDiv {
+    height: 100%;
+    float: right;
+    right: 0;
+    position: fixed;
+    z-index: 10;
+}
+.slideDiv * {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+}
+.slideDiv li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.sideTodo {
+    width: 230px;
+    height: 100%;
+    float: right;
+    background-color: #fafafa;
+    -webkit-box-shadow: -5px 0 7px rgba(198, 198, 198, 0.5); /*밑길이 우측길이 스프레드 색상*/
+}
+
+.Todo-title {
+    background-color: #577cbd;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+.sideTodo section {
+    padding: 4px 0 10px 10px;
+}
+
+.sideTodo section input[type="checkbox"] {
+    background-color: transparent;
+}
+
+.sideTodo input {
+    color: #577cbd;
+    font-size: large;
+}
+.sideTodoBtn {
+    background: transparent;
+    border: transparent;
+    color: #577cbd;
+    height: 30px;
+    min-width: 30px;
+    width: 30px;
+}
+.sideTodoBtn:hover {
+    color: #fafafa;
+    background: #00c5cc;
+    border-radius: 50% !important;
+}
+
+#TodoBtn {
+    text-decoration: none;
+    position: relative;
+    float: right;
+    padding: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: -3px 3px 7px rgba(198, 198, 198, 0.5); /*우측길이 밑길이 스프레드 색상*/
+}
+
+
+
+@media screen and (max-width: 620px) {
+    .slideDiv {
+        visibility: hidden;
+    }
+}
+.completed_item {
+    text-decoration: line-through !important;
+}
